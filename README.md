@@ -21,6 +21,8 @@ macOS makes you choose. Clipboard *or* file. Not both.
 
 That's it. Press the shortcut, paste anywhere with `⌘V`, and the file is already saved.
 
+![snapstash demo](assets/demo.gif)
+
 ---
 
 ## Install
