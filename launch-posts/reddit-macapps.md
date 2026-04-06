@@ -12,8 +12,8 @@ I take 20+ screenshots a day — sharing progress, debugging, documenting. I alw
 
 So I built **snapstash** — two keyboard shortcuts that do both at once:
 
-- `⌥S` → full screen → clipboard + `~/Desktop/screenshots/`
-- `⌥A` → select area → clipboard + `~/Desktop/screenshots/`
+- `⌘⌥S` → full screen → clipboard + `~/Desktop/screenshots/`
+- `⌘⌥A` → select area → clipboard + `~/Desktop/screenshots/`
 
 One-line install:
 ```

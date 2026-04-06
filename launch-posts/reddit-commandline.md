@@ -15,8 +15,8 @@ osascript -e "set the clipboard to (read (POSIX file \"$FILENAME\") as «class P
 ```
 
 Wrapped it in Automator Quick Actions with keyboard shortcuts:
-- `Option+S` — full screen
-- `Option+A` — select area (interactive)
+- `⌘⌥S` — full screen
+- `⌘⌥A` — select area (interactive)
 
 Both save to `~/Desktop/screenshots/` AND copy to clipboard. Every time.
 

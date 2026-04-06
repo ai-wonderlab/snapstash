@@ -16,8 +16,8 @@ macOS makes you choose. Clipboard *or* file. Not both.
 
 | Shortcut | What happens |
 |----------|-------------|
-| `⌥S` | Full screen → clipboard + `~/Desktop/screenshots/` |
-| `⌥A` | Select area → clipboard + `~/Desktop/screenshots/` |
+| `⌘⌥S` | Full screen → clipboard + `~/Desktop/screenshots/` |
+| `⌘⌥A` | Select area → clipboard + `~/Desktop/screenshots/` |
 
 That's it. Press the shortcut, paste anywhere with `⌘V`, and the file is already saved.
 
