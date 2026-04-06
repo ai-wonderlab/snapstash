@@ -41,8 +41,8 @@ These three lines are wrapped in macOS Automator Quick Actions — the native wa
 
 | Shortcut | What it does |
 |----------|-------------|
-| `Ctrl+Shift+S` | Full screen → clipboard + `~/Desktop/screenshots/` |
-| `Ctrl+Shift+A` | Select area → clipboard + `~/Desktop/screenshots/` |
+| `Option+S` | Full screen → clipboard + `~/Desktop/screenshots/` |
+| `Option+A` | Select area → clipboard + `~/Desktop/screenshots/` |
 
 After pressing the shortcut:
 - `⌘V` pastes the screenshot anywhere

@@ -12,7 +12,7 @@ Hey HN — I built this because of a small daily friction that added up.
 
 I take a lot of screenshots while coding — sharing progress, documenting bugs, saving UI states. Every time, macOS makes me choose: clipboard (⌘⌃⇧3) or file (⌘⇧3). I always need both.
 
-snapstash adds two shortcuts: Ctrl+Shift+S (full screen) and Ctrl+Shift+A (area select). Both save to ~/Desktop/screenshots/ AND copy to clipboard. Simultaneously.
+snapstash adds two shortcuts: Option+S (full screen) and Option+A (area select). Both save to ~/Desktop/screenshots/ AND copy to clipboard. Simultaneously.
 
 The whole thing is 3 lines of shell wrapped in Automator Quick Actions:
 

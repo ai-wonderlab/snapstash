@@ -26,8 +26,8 @@ No Electron wrapper.
 One curl. Two shortcuts. Done.
 
 ### Reply 3
-⌃⇧S → full screen → clipboard + folder
-⌃⇧A → select area → clipboard + folder
+⌥S → full screen → clipboard + folder
+⌥A → select area → clipboard + folder
 
 The shortcut macOS forgot to build.
 

@@ -49,11 +49,11 @@ echo -e "  ${GREEN}✓${RESET} Installed area selection shortcut"
 # --- Step 3: Register keyboard shortcuts ---
 defaults write pbs NSServicesStatus -dict-add \
   '"(null) - ScreenshotFull - runWorkflowAsService"' \
-  '{ "enabled_context_menu" = 1; "enabled_services_menu" = 1; "key_equivalent" = "^$s"; }'
+  '{ "enabled_context_menu" = 1; "enabled_services_menu" = 1; "key_equivalent" = "~s"; }'
 
 defaults write pbs NSServicesStatus -dict-add \
   '"(null) - ScreenshotArea - runWorkflowAsService"' \
-  '{ "enabled_context_menu" = 1; "enabled_services_menu" = 1; "key_equivalent" = "^$a"; }'
+  '{ "enabled_context_menu" = 1; "enabled_services_menu" = 1; "key_equivalent" = "~a"; }'
 
 # Refresh services
 /System/Library/CoreServices/pbs -flush 2>/dev/null || true
@@ -62,8 +62,8 @@ echo -e "  ${GREEN}✓${RESET} Keyboard shortcuts registered"
 
 # --- Done ---
 echo ""
-echo -e "  ${BOLD}⌃⇧S${RESET}  full screen → clipboard + ~/Desktop/screenshots/"
-echo -e "  ${BOLD}⌃⇧A${RESET}  select area → clipboard + ~/Desktop/screenshots/"
+echo -e "  ${BOLD}⌥S${RESET}  full screen → clipboard + ~/Desktop/screenshots/"
+echo -e "  ${BOLD}⌥A${RESET}  select area → clipboard + ~/Desktop/screenshots/"
 echo ""
 echo -e "  ${DIM}First run: macOS will ask for Screen Recording permission.${RESET}"
 echo -e "  ${DIM}Allow it once and you're set.${RESET}"
